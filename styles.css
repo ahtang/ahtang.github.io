@@ -1,0 +1,223 @@
+html, body {
+  background-color: white;
+  text-align: center;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* FONT STYlES LANDING PAGE */
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+}
+
+
+/* CARD STYLES */
+a:hover {
+  text-decoration: none;
+}
+
+a .card:hover {
+  border-color: #17a2b8;
+  border-style: line;
+  border-width: thick;
+}
+
+/* .card-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+} */
+
+.card-subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #778899;
+  font-size: .8rem;
+}
+
+.card-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #778899;
+  font-size: .8rem;
+}
+
+.cards-margin {
+  margin-top: 1.5rem;
+}
+
+/* OTHER GLOBAL */
+.container {
+  padding: 8rem 3rem 3rem 3rem;
+}
+
+footer {
+  background-color: black;
+  margin-top: 0;
+  padding: 1rem 0 .25rem 0;
+}
+
+footer p{
+  font-size: .8rem;
+}
+
+/* LANDING */
+.profile-image {
+  width: 40%;
+  min-width: 250px;
+}
+
+.navbar-brand {
+  margin: 1rem 0 1rem 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  margin: auto 5% auto 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.landing-buttons .btn {
+  margin: 1rem .2rem;
+}
+
+#landing {
+  margin: 6rem auto 5% auto;
+  display: inline-block;
+  background-color: white;
+  height: 75%;
+}
+
+#landing .row {
+  margin: 0% 20% 0% 20%;
+}
+
+/* CASE STUDIES */
+#case-studies {
+  background-color: black;
+  padding: 2rem auto 6rem auto;
+}
+
+#case-studies h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+#case-studies .row {
+  padding-bottom: 4rem;
+}
+
+/* VISUAL GALLERY */
+#personal-projects {
+  background-color: white;
+  padding: 2rem auto 6rem auto;
+  margin-bottom: 6rem;
+}
+
+#personal-projects h1 {
+  color: black;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+#personal-projects p {
+  color: black;
+}
+
+
+
+/* ABOUT */
+#about {
+  background-color: black;
+  padding: 2rem auto 6rem auto;
+}
+
+.carousel-inner {
+  height: 300px;
+  width: auto;
+  max-width: 500px;
+}
+
+.carousel-item img {
+  height: 300px;
+  width: auto;
+  max-width: 500px;
+}
+
+#carouselExampleIndicators {
+  height: 300px;
+  width: auto;
+  max-width: 500px;
+  margin: 0 auto 0 auto;
+}
+
+#about p {
+  color: white;
+  height: auto;
+}
+
+#about h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+#about h2 {
+  color: white;
+  margin: 4rem auto 1.5rem auto;
+}
+
+#about .col-md-6 {
+  text-align: left;
+  margin: auto;
+}
+
+#about .col-12 {
+  margin: 0 auto 2rem auto;
+}
+
+#about .btn {
+  margin: 0 0 0 .2rem;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 8rem 0 3rem 0;
+  }
+
+  .row {
+    margin: 0 5% 0 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #about .col-md-6 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  #about .col-12 {
+    margin: 0 auto 0 auto;
+  }
+}
