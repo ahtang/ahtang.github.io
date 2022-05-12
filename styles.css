@@ -107,14 +107,14 @@ footer p{
   margin: 1rem .2rem;
 }
 
-#landing {
+#portfolio {
   margin: 6rem auto 5% auto;
   display: inline-block;
   background-color: white;
   height: 75%;
 }
 
-#landing .row {
+#portfolio .row {
   margin: 0% 20% 0% 20%;
 }
 
